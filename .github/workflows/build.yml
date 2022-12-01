@@ -4,4 +4,4 @@ jobs:
   crkbd_chocolate:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
-      config_path: "zmk_firmware"
+      config_path: "crkbd/zmk_firmware"
