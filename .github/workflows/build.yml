@@ -1,11 +1,7 @@
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  crkbd_chocolate:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
-    with:
-      config_path: "zmk_firmware"
-  chalice:
+  zmk_firmware:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
       config_path: "zmk_firmware"
